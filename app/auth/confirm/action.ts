@@ -31,5 +31,5 @@ export async function confirmUserAction(prevState: any, formData: FormData) {
     };
   }
 
-  return redirect("/");
+  return redirect("/dashboard");
 }
